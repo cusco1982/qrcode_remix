@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "qrcode-remix"
+client_id = "f222eeda841bce76caf64aae4b447331"
+application_url = "https://tue-goat-researcher-divx.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://tue-goat-researcher-divx.trycloudflare.com/auth/callback",
+  "https://tue-goat-researcher-divx.trycloudflare.com/auth/shopify/callback",
+  "https://tue-goat-researcher-divx.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-88527d3b.myshopify.com"
