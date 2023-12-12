@@ -2,7 +2,7 @@
 
 name = "qrcode-remix"
 client_id = "f222eeda841bce76caf64aae4b447331"
-application_url = "https://tue-goat-researcher-divx.trycloudflare.com"
+application_url = "https://actors-ghost-registration-treasurer.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://tue-goat-researcher-divx.trycloudflare.com/auth/callback",
-  "https://tue-goat-researcher-divx.trycloudflare.com/auth/shopify/callback",
-  "https://tue-goat-researcher-divx.trycloudflare.com/api/auth/callback"
+  "https://actors-ghost-registration-treasurer.trycloudflare.com/auth/callback",
+  "https://actors-ghost-registration-treasurer.trycloudflare.com/auth/shopify/callback",
+  "https://actors-ghost-registration-treasurer.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
